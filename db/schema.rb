@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141221171127) do
+ActiveRecord::Schema.define(version: 20141221223452) do
+
+  create_table "articles", force: true do |t|
+    t.string   "title"
+    t.text     "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "authors", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -31,5 +38,8 @@ ActiveRecord::Schema.define(version: 20141221171127) do
 
   add_index "authors", ["email"], name: "index_authors_on_email", unique: true
   add_index "authors", ["reset_password_token"], name: "index_authors_on_reset_password_token", unique: true
+
+# Could not dump table "blogposts" because of following NoMethodError
+#   undefined method `[]' for nil:NilClass
 
 end
