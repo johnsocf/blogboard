@@ -11,26 +11,7 @@ class ArticlesController < ApplicationController
     def create
         @article = Article.create(article_params)
         @article.save
-        ##checkValidity(@article);
 
-        @current_author = current_author
-
-            if @article.valid?
-                redirect_to article_path(@article)
-                current_author.saved_title = nil
-                current_author.saved_body = nil
-                current_author.save
-            else
-                if @article.title == ""
-                    @current_author.saved_body = @article.body
-                    @current_author.saved_title = nil
-                elsif @article.body == ""
-                    @current_author.saved_body = nil
-                    @current_author.saved_title = @article.title
-                end
-                redirect_to new_article_path(@article)
-            end
-        @current_author.save
     end
 
     def new
