@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="970d5634-5212-4eca-974a-67334ecb1470" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" />
-    </list>
+    <list default="true" id="970d5634-5212-4eca-974a-67334ecb1470" name="Default" comment="" />
     <ignored path="blogboard.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,7 +80,7 @@
       <file leaf-file-name="articles_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="42" selection-start="328" selection-end="328" vertical-scroll-proportion="0.14137214" vertical-offset="142" max-vertical-offset="825">
+            <state line="32" column="48" selection-start="715" selection-end="715" vertical-scroll-proportion="0.85862786" vertical-offset="67" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -786,7 +784,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="42" selection-start="328" selection-end="328" vertical-scroll-proportion="0.14137214" vertical-offset="142" max-vertical-offset="825">
+        <state line="32" column="48" selection-start="715" selection-end="715" vertical-scroll-proportion="0.85862786" vertical-offset="67" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
