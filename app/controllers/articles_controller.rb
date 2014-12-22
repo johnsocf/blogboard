@@ -12,7 +12,11 @@ class ArticlesController < ApplicationController
         @article = Article.create(article_params)
         @article.save
 
-        redirect_to article_path(@article)
+        if @article.valid?
+            redirect_to article_path(@article)
+        else
+            redirect_to new_article_path(@article)
+        end
     end
 
     def new
