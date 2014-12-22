@@ -1,5 +1,22 @@
 <h1>home index file</h1>
 
+<h2>All Articles</h2>
+
+<ul id="articles">
+    <% @articles.each do |article| %>
+        <li>
+            <%= link_to article.title, article_path(article) %>
+        </li>
+        <li>
+            <%= article.body %>
+        </li>
+    <% end %>
+</ul>
+
+<li>
+    <%= link_to "create new article", new_article_path %>
+</li>
+
 <% if author_signed_in? %>
     <%= link_to "log out", destroy_author_session_path, method: :delete %>
 <% else %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141221223452) do
+ActiveRecord::Schema.define(version: 20141222010601) do
 
   create_table "articles", force: true do |t|
     t.string   "title"
@@ -34,6 +34,8 @@ ActiveRecord::Schema.define(version: 20141221223452) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "name"
+    t.string   "saved_body"
+    t.string   "saved_title"
   end
 
   add_index "authors", ["email"], name: "index_authors_on_email", unique: true
