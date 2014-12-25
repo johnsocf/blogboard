@@ -14,4 +14,5 @@ class Article < ActiveRecord::Base
             tag.name
         end.join(", ")
     end
+
 end
