@@ -5,9 +5,7 @@
     <%= @article.body %>
 </p>
 <p>
-    <% @article.tags.each do |tag| %>
-        <%= link_to tag.name, tag_path(tag) %>
-    <% end %>
+   
 </p>
 <%= link_to "back to articles", home_index_path %>
 <%= link_to "delete", article_path(@article), method: :delete %>
