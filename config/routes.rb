@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   devise_for :authors
   resources :articles
   resources :home
+  resources :tags
 
 
   # The priority is based upon order of creation: first created -> highest priority.
