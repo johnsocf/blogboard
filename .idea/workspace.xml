@@ -70,6 +70,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="article.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="36" selection-start="369" selection-end="369" vertical-scroll-proportion="0.29005525" vertical-offset="0" max-vertical-offset="435">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="articles_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/articles_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,15 +92,6 @@
         <entry file="file://$PROJECT_DIR$/db/migrate/20141225234855_add_paperclip_fields_to_article.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="5" column="54" selection-start="287" selection-end="287" vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="210">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/schema.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="27" selection-start="2157" selection-end="2161" vertical-scroll-proportion="1.7928177" vertical-offset="161" max-vertical-offset="1095">
               <folding />
             </state>
           </provider>
@@ -726,16 +726,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="140" selection-end="140" vertical-scroll-proportion="0.12430939" vertical-offset="0" max-vertical-offset="405">
+        <state line="54" column="27" selection-start="2157" selection-end="2161" vertical-scroll-proportion="1.7928177" vertical-offset="161" max-vertical-offset="1095">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+    <entry file="file://$PROJECT_DIR$/app/models/article.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="27" selection-start="2157" selection-end="2161" vertical-scroll-proportion="1.7928177" vertical-offset="161" max-vertical-offset="1095">
+        <state line="7" column="36" selection-start="369" selection-end="369" vertical-scroll-proportion="0.29005525" vertical-offset="0" max-vertical-offset="435">
           <folding />
         </state>
       </provider>
