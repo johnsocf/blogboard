@@ -2,7 +2,7 @@ class Article < ActiveRecord::Base
     validates :title, :body, presence: true
     has_many :taggings
     has_many :tags, through: :taggings
-    attr_accessor :image
+    attr_accessor :image_file_name
     has_attached_file :image, :styles => {:medium => "300x300>", :thumb => "100x100>"}
     validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png"]
 
