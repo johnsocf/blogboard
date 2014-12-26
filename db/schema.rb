@@ -37,16 +37,12 @@ ActiveRecord::Schema.define(version: 20141225234855) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "name"
     t.string   "saved_body"
     t.string   "saved_title"
   end
 
   add_index "authors", ["email"], name: "index_authors_on_email", unique: true
   add_index "authors", ["reset_password_token"], name: "index_authors_on_reset_password_token", unique: true
-
-# Could not dump table "blogposts" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
 
   create_table "taggings", force: true do |t|
     t.integer  "tag_id"
