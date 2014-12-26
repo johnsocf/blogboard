@@ -2,10 +2,8 @@ class Article < ActiveRecord::Base
     validates :title, :body, presence: true
     has_many :taggings
     has_many :tags, through: :taggings
-
     has_attached_file :image, :styles => {:medium => "300x300>", :thumb => "100x100>"}
     validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png"]
-    attr_accessible :image_file_name
 
 
     def tag_list=(tags_string)
