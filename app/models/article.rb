@@ -3,11 +3,7 @@ class Article < ActiveRecord::Base
     has_many :taggings
     has_many :tags, through: :taggings
 
-    has_attached_file :image, styles: {
-        thumb: '100x100>',
-        square: '200x200#',
-        medium: '300x300>'
-     }
+    has_attached_file :image
     validates_attachment_content_type :image, :content_type => ["image/jpg", "image/jpeg", "image/png"]
 
 
